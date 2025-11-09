@@ -1,0 +1,160 @@
+ * {
+    padding: 0;
+    margin: 0;
+    color: white;
+ }
+button {
+    color: rgb(13, 0, 255);
+    background-color:rgb(241, 238, 238);
+}
+body {
+    background-color: rgb(40, 170, 120);
+    background-color: gray;
+}
+    #one {
+        color:green;
+    }
+ #two {
+    color: blue;
+ }
+ #three {
+    color: aqua;
+ }
+#fore {
+    color: honeydew;
+}
+ #id {
+    color: cyan;
+ }
+ #box {
+    background-color: blue;
+ }
+ .heading {
+    color: rgb(255, 30, 0);
+ }
+button {
+    color: black;
+    background-color: green;
+    }
+    p {
+        text-align: center;
+    }
+#ha {
+    text-align: center;
+    text-transform: capitalize;
+    font: bolder;
+    border-style: dashed;
+    border-color: blue;
+    height: 30px;
+    width: 150px;
+    background-color: gold;
+    color: red;
+}
+    p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+  #outer {
+    font-size:25px; 
+  }
+  #inner {
+    font-size:10px;
+  }
+  /* div {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border-color: aqua;
+    border-style: double;
+    border-width: 6px;
+    border: 6px double aqua ; 
+    padding: 9%;
+     padding: 8px 5px 6px 7px;
+    margin: 60px;
+} */
+ #no {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius:50%;
+    color: white;
+} 
+ #navbar {
+    height: 60px;
+    background-color: #0f1111;
+ }
+button {
+    background-color: #f08804;
+    color: #e0e4de;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+a {
+    margin-right: 250px;
+    text-decoration: none;
+}
+
+#highlight {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#highlight1 { 
+    background-color: rgba(170, 30, 55, 0.4)
+}
+#highlight2 {
+    background-color: rgba(0, 255, 0, 0.55);
+}
+#highlight3 {
+    background-color: rgba(9, 195, 237,1);
+}
+
+.set1 {
+    height: 100px; 
+    width: 100px; 
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+    color: white;
+}
+#set {
+    height: 640px;
+}
+ #box1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    font-size: 10px;
+ }
+ #box2 {
+    height: 100px;
+    width: 100px;
+    background-color:cyan;
+    margin-left: 10%;
+    font-size: 2em;
+ }
+
+ /* div {
+    height: 10px;
+    width: 10px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    display: inline-block; 
+
+ }  */
+#bulb {
+    height: 180px;
+    width: 120px;
+    background-image: url(bulb_image.jpg.jpg);
+    background-size:cover ;
+    
+}
+
