@@ -29,9 +29,11 @@ body {
  #box {
     background-color: blue;
  }
+
  .heading {
     color: rgb(255, 30, 0);
  }
+
 button {
     color: black;
     background-color: green;
@@ -39,6 +41,7 @@ button {
     p {
         text-align: center;
     }
+
 #ha {
     text-align: center;
     text-transform: capitalize;
@@ -71,6 +74,7 @@ button {
      padding: 8px 5px 6px 7px;
     margin: 60px;
 } */
+
  #no {
     height: 100px;
     width: 100px;
@@ -78,10 +82,12 @@ button {
     border-radius:50%;
     color: white;
 } 
+
  #navbar {
     height: 60px;
     background-color: #0f1111;
  }
+
 button {
     background-color: #f08804;
     color: #e0e4de;
@@ -91,6 +97,7 @@ button {
     color: #f08804;
     font-size: 25px;
 }
+
 a {
     margin-right: 250px;
     text-decoration: none;
@@ -120,20 +127,24 @@ a {
     border: 2px solid black;
     display: inline-block;
 }
+
 footer{
     background-color: #0f1111;
     text-align: center;
     color: white;
 }
+
 /* #set {
     height: 500px;
 } */
+
  /* #box1 {
     height: 100px;
     width: 100px;
     background-color: yellow;
     font-size: 10px;
  }
+
  #box2 {
     height: 100px;
     width: 100px;
@@ -150,6 +161,7 @@ footer{
     display: inline-block; 
 
  }  */
+
 #bulb {
     height: 180px;
     width: 120px;
@@ -160,15 +172,18 @@ footer{
     position: relative;
     right:0px;
 }
+
 body {
     text-align: center;
 }
+
 div {
     height: 100px;
     width: 100px;
     display: inline-block;
     border: 2px solid black;
 }
+
 #container {
     width: 800px;
     height: 200px;
@@ -199,3 +214,5 @@ div {
     background-color: pink;
     color: black;
 }
+
+
