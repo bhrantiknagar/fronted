@@ -96,13 +96,13 @@ a {
     text-decoration: none;
 }
 
-#highlight {
+/* #highlight {
     width: 100px;
     height: 100px;
     margin: 25px;
     padding: 25px;
     display: inline-block;
-}
+} */
 
 #highlight1 { 
     background-color: rgba(170, 30, 55, 0.4)
@@ -125,9 +125,9 @@ footer{
     text-align: center;
     color: white;
 }
-#set {
-    height: 640px;
-}
+/* #set {
+    height: 500px;
+} */
  /* #box1 {
     height: 100px;
     width: 100px;
