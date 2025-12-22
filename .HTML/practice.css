@@ -175,19 +175,27 @@ div {
 }
 #box1 {
     background-color: aqua;
+    color: bright black;
+    
 }
 #box2 {
     background-color: pink;
+    color: black;
 }
 #box3 {
     background-color: chartreuse;
+    color: blue;
 }
 #box4 {
     background-color: black;
+    color: white;
 }
 #box5 {
     background-color: blue;
+    color: greenyellow;
 }
 
-
-
+#bu {
+    background-color: pink;
+    color: black;
+}
