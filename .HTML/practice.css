@@ -303,9 +303,11 @@ body {
     100% { background-position: 0 0; }
 }
 
+
 .nav {
     background-color: #00ffd5;
     display: flex;
+    justify-content: space-evenly;
 }
 a {
     text-decoration: none;
@@ -314,5 +316,19 @@ a {
 li {
     list-style-type: none;
     background-color: white;
+}
+
+.outer {
+    height: 300px;
+    width: 300px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: ghostwhite;
 }
  
