@@ -187,6 +187,9 @@ div {
 #container {
     width: 800px;
     height: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 #box1 {
     background-color: aqua;
@@ -209,6 +212,7 @@ div {
     background-color: blue;
     color: greenyellow;
 }
+
 .animation-button {
     background-color: #4caf50;
     border: none;
@@ -224,13 +228,14 @@ div {
     transition-duration: 0.4s;
     transition-property: background-color, transform;
 }
-
 .animated-button:hover {
     background-color: #45a049;
     transform:scale(1.05);
 }
 
 
+
+/* this is not include in learning time */
 
 /* html,
 body {
@@ -272,19 +277,15 @@ body {
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
 .glow-on-hover:active {
     color: #000
 }
-
 .glow-on-hover:active:after {
     background: transparent;
 }
-
 .glow-on-hover:hover:before {
     opacity: 1;
 }
-
 .glow-on-hover:after {
     z-index: -1;
     content: '';
@@ -296,9 +297,22 @@ body {
     top: 0;
     border-radius: 10px;
 }
-
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+.nav {
+    background-color: #00ffd5;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+    background-color: white;
+}
+ 
