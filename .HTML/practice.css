@@ -358,3 +358,18 @@ li {
     }
 }
 
+#animation {
+    height: 150px;
+    width: 150px;
+    background-color: #48ff00;
+    border: 2px solid black;
+}
+#animation:hover {
+    background-color: #e0e4de;
+    color: black;
+}
+#animation:active {
+    background-color: black;
+    color: white;
+}
+
