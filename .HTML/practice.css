@@ -368,6 +368,7 @@ li {
     transition-timing-function: ease-in-out;
     transition-delay: 1s; */
     transition: all 2s ease-in-out 1s;
+    rotate: 220deg;
 }
 #animation:hover {
     background-color: #e0e4de;
