@@ -358,7 +358,7 @@ li {
     }
 }
 
-#animation {
+#transition {
     height: 150px;
     width: 150px;
     background-color: #48ff00;
@@ -372,14 +372,14 @@ li {
     transform: scale(1.5);
     transform: rotate(360deg);
 }
-#animation:hover {
+#transition:hover {
     background-color: #e0e4de;
     color: black;
     font-size: 25px;
     transform: translateX(200px);
     transform: skew(55deg);
 }
-#animation:active {
+#transition:active {
     background-color: black;
     color: white;
 }
