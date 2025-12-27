@@ -377,6 +377,7 @@ li {
     color: black;
     font-size: 25px;
     transform: translateX(200px);
+    transform: skew(55deg);
 }
 #animation:active {
     background-color: black;
