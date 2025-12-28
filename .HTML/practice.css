@@ -383,3 +383,17 @@ li {
     background-color: black;
     color: white;
 }
+
+#animation {
+    height: 200px;
+    width: 200px;
+    background-color: #7a00ff;
+    border: 2px solid black;
+    position:absolute;
+    top: 2850px;
+    left: 300px;
+}
+@keyframes colorAnimate {
+    from { background-color: #7a00ff;}
+    to   { background-color: white;}
+}
