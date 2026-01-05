@@ -34,3 +34,14 @@ console.log(age);
 
 // Data types 
 
+const student = {                   // Object
+    fullName: "Mohan pyare",
+    age: 21, 
+    cgpa: 8.123,
+    isPass: true,
+};
+console.log(student);
+
+student["name"] = "Pyare mohan";
+console.log(student["name"]);
+
