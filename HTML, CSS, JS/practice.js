@@ -32,9 +32,9 @@ const age = "18";          // this is cant re-declare
 console.log(age);
 
 
-// Data types 
+// Data types :
 
-const student = {                   // Object
+const student = {                   // Objects
     fullName: "Mohan pyare",
     age: 21, 
     cgpa: 8.123,
@@ -45,3 +45,26 @@ console.log(student);
 student["name"] = "Pyare mohan";
 console.log(student["name"]);
 
+
+const product = {
+    Name: "fountain pen",
+    rating: 4.2,
+    offer: 4,
+    price: 432,
+};
+
+console.log(product);
+
+
+const profile = {
+    Name: "shradha khapra",
+    isFollow: true,
+    posts: 195,
+    followers: 569,
+    following: 4,
+    Bio: "Apna collage | Ex- Microsoft, DRDO",
+    Motive: "To educate someone is the highest privilage",
+};
+
+console.log(profile);
+console.log(typeof profile["Name"]); 
