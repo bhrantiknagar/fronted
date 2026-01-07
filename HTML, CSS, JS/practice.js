@@ -135,3 +135,18 @@ let u = 2;
 console.log("t = ", t);
 
 
+// Camparison Operators:
+
+let v = 13; 
+let w = 12;
+
+console.log("v == w", v == w);          // "== - check equal to"
+console.log("v != w", v != w);          // "!= - check not equal to"
+console.log("v === w", v === w);        // "=== - check equal to in data type"
+console.log("v !== w", v !== w);        // "!== - check not equal to in data type"
+console.log("v > w", v > w);            // "> - check greater than"
+console.log("v >= w", v >= w);          // ">= - check greater than equal to"
+console.log("v < w", v < w);            // "< - check less than"
+console.log("v <= w", v <= w);          // "<= - check less than equal to"
+
+
