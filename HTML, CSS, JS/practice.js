@@ -109,10 +109,12 @@ console.log("n ** o =", n ** o);
 
 let p = 8;                 // "++ - Increment"
 let q = 2;
-p++;
+p++; // post increment
+// ++p;  pre increment 
 console.log("p = ", p);
 
 let r = 10000;             // "-- - Decrement"
 let s = 5;
-r--;
+r--;  // post
+// --r; pre 
 console.log("r =", r);
