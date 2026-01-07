@@ -11,10 +11,10 @@ console.log(" here we start again bro");
 // console.log(age);
 price = 12345.78;
 console.log(price);
-x = null;
-y = undefined;
-console.log(x);
-console.log(y);
+// x = null;
+// y = undefined;
+// console.log(x);
+// console.log(y);
 
 isFollow = true;           // boolean variables 
 isFollow = false;
@@ -150,3 +150,14 @@ console.log("v < w", v < w);            // "< - check less than"
 console.log("v <= w", v <= w);          // "<= - check less than equal to"
 
 
+// Logical Operators:
+
+let x = 55;                             // "&& - check both are true"
+let y = 89;                             // "|| - check for one true"
+                                        // "! - it convert the statement"
+let cond1 = x < y;      // False   
+let cond2 = x == 55;    // True
+
+console.log("cond1 && cond2 =", cond1 && cond2);
+console.log("cond1 || cond2 =", x < y || y === 90);
+console.log("!(x == 55) = ", !(x == 55));
