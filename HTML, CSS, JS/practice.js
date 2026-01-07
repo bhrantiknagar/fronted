@@ -118,3 +118,20 @@ let s = 5;
 r--;  // post
 // --r; pre 
 console.log("r =", r);
+
+
+// Assignment Operators: 
+
+let t = 15;
+let u = 2;
+
+// t += 4;                // "+= - for t = t + 4;"
+// t -= 4;                // "-= - for t = t - 4;"
+// t *= 4;                // "*= - for t = t * 4;"
+// t /= 4;                // "/= - for t = t / 4;"
+// t %= 4;                // "%= - for t = t % 4;"
+// t **= 4;               // "**= - for t = t ** 4;"
+
+console.log("t = ", t);
+
+
