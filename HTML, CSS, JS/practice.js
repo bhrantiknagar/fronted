@@ -27,9 +27,9 @@ halfName = "half";
 halfName = "Full";
 console.log(halfName);
 
-const age = "18";          // this is cant re-declare 
+// const age = "18";          // this is cant re-declare 
 // age = "19";
-console.log(age);
+// console.log(age);
 
 
 // Data types :
@@ -161,3 +161,44 @@ let cond2 = x == 55;    // True
 console.log("cond1 && cond2 =", cond1 && cond2);
 console.log("cond1 || cond2 =", x < y || y === 90);
 console.log("!(x == 55) = ", !(x == 55));
+
+
+// Ternary Operators:
+
+
+
+// Conditional Statements:-
+
+// let age = 16;
+
+// if ( age >= 18) {
+//     console.log("Ok Ok you can do this");
+// }
+
+// if ( age < 18) {
+//     console.log("you CANNOT do this dumb kid!!");
+// }
+
+// odd or even 
+let num = 13;
+
+if (num % 2 === 0) {
+    console.log(num, "is even");
+} else {
+    console.log(num, "is odd");
+}
+
+let mode = "dark";
+let color;
+
+if (mode === "dark") {
+    color = "black";
+} else if (mode === "blue") {
+    color = "blue";
+} else if (mode === "pink") {
+    color = "pink";
+} else {
+    color = "white";
+}
+
+console.log(color);
