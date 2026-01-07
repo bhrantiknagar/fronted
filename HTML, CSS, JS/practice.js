@@ -165,6 +165,10 @@ console.log("!(x == 55) = ", !(x == 55));
 
 // Ternary Operators:
 
+let people = 230;                       // Compact if else
+
+let park = people >= 300 ? "Many" : "Some";
+console.log(park);
 
 
 // Conditional Statements:-
@@ -202,3 +206,29 @@ if (mode === "dark") {
 }
 
 console.log(color);
+
+
+// let number = prompt("enter a number:");
+
+// if (number % 5 === 0) {
+//     console.log(number, "is a multiple of 5");
+// } else {
+//     console.log(number, "is NOT a multiple of 5");
+// }
+
+
+let marks = "85";
+let grade;
+
+if (marks >= 90 && marks <= 100) {
+    grade = "A";
+} else if(marks >= 70 && marks <= 89) {
+    grade = "B";
+} else if(marks >= 60 && marks <= 69) {
+    grade = "C"; 
+} else if(marks >= 50 && marks <= 59) {
+    grade = "D";
+} else {
+    grade = "E";
+}
+console.log("Your Grade is",grade);
