@@ -68,3 +68,51 @@ const profile = {
 
 console.log(profile);
 console.log(typeof profile["Name"]); 
+
+
+// Oprators:-
+// Arithmetic Operators:
+
+let a = 13;                // "+"
+let b = 8;
+console.log("a + b =",a + b);
+
+let c = 99;
+let d = 1;
+let e = c + d;
+console.log("c =", c, "& d =", d);
+console.log("c + d =", e );
+
+let f = 10000000000;       // "-"
+let g = 1;
+console.log("f - g =", f - g);
+
+let h = 99;                // "*"
+let i = 1;
+console.log("h * i =", h * i);
+
+let j = 999;               // "/"
+let k = 2;
+console.log("j / k =", j / k);
+
+// some extra operators are-
+
+let l = 25;                // "% - Modulus, this is showing remainder"
+let m = 5;
+console.log("l % m =", l % m);
+
+let n = 3;                 // "** - Exponentiation, this is showing power"
+let o = 2;
+console.log("n ** o =", n ** o);
+
+// Unary operators are-
+
+let p = 8;                 // "++ - Increment"
+let q = 2;
+p++;
+console.log("p = ", p);
+
+let r = 10000;             // "-- - Decrement"
+let s = 5;
+r--;
+console.log("r =", r);
