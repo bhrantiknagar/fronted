@@ -34,16 +34,16 @@ console.log(halfName);
 
 // Data types :
 
-const student = {                   // Objects
-    fullName: "Mohan pyare",
-    age: 21, 
-    cgpa: 8.123,
-    isPass: true,
-};
-console.log(student);
+// const student = {                   // Objects
+//     fullName: "Mohan pyare",
+//     age: 21, 
+//     cgpa: 8.123,
+//     isPass: true,
+// };
+// console.log(student);
 
-student["name"] = "Pyare mohan";
-console.log(student["name"]);
+// student["name"] = "Pyare mohan";
+// console.log(student["name"]);
 
 
 const product = {
@@ -88,8 +88,8 @@ let g = 1;
 console.log("f - g =", f - g);
 
 let h = 99;                // "*"
-let i = 1;
-console.log("h * i =", h * i);
+// let i = 1;
+// console.log("h * i =", h * i);
 
 let j = 999;               // "/"
 let k = 2;
@@ -98,12 +98,12 @@ console.log("j / k =", j / k);
 // some extra operators are-
 
 let l = 25;                // "% - Modulus, this is showing remainder"
-let m = 5;
-console.log("l % m =", l % m);
+// let m = 5;
+// console.log("l % m =", l % m);
 
 let n = 3;                 // "** - Exponentiation, this is showing power"
-let o = 2;
-console.log("n ** o =", n ** o);
+// let o = 2;
+// console.log("n ** o =", n ** o);
 
 // Unary operators are-
 
@@ -232,3 +232,54 @@ if (marks >= 90 && marks <= 100) {
     grade = "E";
 }
 console.log("Your Grade is",grade);
+
+
+// loops :-
+
+for (let i = 1; i <= 9; i++) {          // for loop
+    console.log("i =", i);
+}
+
+let sum = 0;
+let m = 9; 
+for (let i = 1; i <= m; i++) {
+    sum = sum + i;
+}
+console.log("sum =", sum);
+
+
+let i = 1;                              // while loop
+while (i <= 9) {
+    console.log("hello while loop!");
+    i++;
+}
+
+
+let o = 6;                              // do while loop 
+do {
+    console.log("o =", o);
+    o++;
+} while (o <= 5);
+
+
+let str = "Amazon web";                 // for-of loop
+                                        // string and array
+let size = 0;
+for (let i of str) {
+    console.log("i =", i);
+    size++;
+}
+
+console.log("string lenth =", size);
+
+
+let student = {
+    name: "Rohit Sharma",
+    age: 32,
+    cgpa: 6.9,
+    isPass: true,
+};
+
+for (let key in student) {
+    console.log("key =", key, "value =", student[key]);
+}
