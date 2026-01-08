@@ -283,3 +283,24 @@ let student = {
 for (let key in student) {
     console.log("key =", key, "value =", student[key]);
 }
+
+
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 != 0) {
+        console.log("Number =",i);
+    }
+}
+
+
+// let gameNum = 21;
+// let userNum = prompt("Game number ko socho bhai : ");
+
+// while (userNum != gameNum) {
+//     userNum = prompt("Galat socha phir se soch : ");
+// }
+
+// console.log("Shabash, ab socha na sahi!");
+
+
+// Strings :- 
+
