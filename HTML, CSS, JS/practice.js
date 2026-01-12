@@ -354,7 +354,10 @@ let jffm4 = "Money is Boss";          // for showing a character
 console.log(jffm4.charAt(9));
 
 
-// let Name09 = prompt("Enter Your Name" );
-// let hhhh = ("@"+Name09+Name09.length);
+// let Name09 = prompt("Enter Your Name");
+// let hhhh = "@"+Name09+Name09.length;
 // console.log(hhhh);
+
+
+// Arrays :-
 
