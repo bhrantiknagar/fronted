@@ -340,5 +340,15 @@ let str4 = "this is concat use to joint 2 strings";
 let jffm = str1.concat(str4);         // ".concat" and "+" are same 
 //        Or
 let jffm1 = str1 + str4;
-console.log(jffm, jffm1);
+let jffm2 = "Yahoo" + 9999;
 
+console.log(jffm, jffm1);
+console.log(jffm2);
+
+let jffm3 = "50 laws of Power";       // it use for replace
+
+console.log(jffm3.replace("50", "48"));
+
+let jffm4 = "Money is Boss";
+
+console.log(jffm4.charAt(9));
