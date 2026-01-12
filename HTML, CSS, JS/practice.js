@@ -349,6 +349,12 @@ let jffm3 = "50 laws of Power";       // it use for replace
 
 console.log(jffm3.replace("50", "48"));
 
-let jffm4 = "Money is Boss";
+let jffm4 = "Money is Boss";          // for showing a character
 
 console.log(jffm4.charAt(9));
+
+
+// let Name09 = prompt("Enter Your Name" );
+// let hhhh = ("@"+Name09+Name09.length);
+// console.log(hhhh);
+
