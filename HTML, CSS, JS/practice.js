@@ -319,3 +319,26 @@ console.log(info1);                 // "``" template literals
 
 console.log("this is \nuse in move into next line");   // "\n"
 console.log("this is \t use for giving tab space");    // "\t"
+
+
+// string methods-
+
+let str1 = "KisikaCollege";
+let newstr = str1.toUpperCase();            // for uppercase
+let newstr1 = newstr.toLowerCase();         // for lowercase
+console.log(str1);
+console.log(newstr);
+console.log(newstr1);
+
+let str2 = "        ha  ha   ha        ";   // ".trim"- this for remove extra space
+console.log(str2.trim());    
+
+let str3 = "0123456789";
+console.log(str3.slice(3,10));        // ".slice"- for select from to 
+
+let str4 = "this is concat use to joint 2 strings";
+let jffm = str1.concat(str4);         // ".concat" and "+" are same 
+//        Or
+let jffm1 = str1 + str4;
+console.log(jffm, jffm1);
+
