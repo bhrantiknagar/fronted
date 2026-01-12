@@ -262,15 +262,15 @@ do {
 } while (o <= 5);
 
 
-let str = "Amazon web";                 // for-of loop
-                                        // string and array
-let size = 0;
-for (let i of str) {
-    console.log("i =", i);
-    size++;
-}
+// let str = "Amazon web";                 // for-of loop
+//                                         // string and array
+// let size = 0;
+// for (let i of str) {
+//     console.log("i =", i);
+//     size++;
+// }
 
-console.log("string lenth =", size);
+// console.log("string lenth =", size);
 
 
 let student = {
@@ -304,3 +304,18 @@ for (let i = 0; i <= 100; i++) {
 
 // Strings :- 
 
+let str = "hello! Jarvis" 
+console.log(str[7]);
+
+let info = {
+    name: "mad",
+    year: 20,
+};
+let info1 = `Name is ${info.name} and ${info.year} year old.`;
+console.log(info1);                 // "``" template literals
+
+
+// escape characters-
+
+console.log("this is \nuse in move into next line");   // "\n"
+console.log("this is \t use for giving tab space");    // "\t"
