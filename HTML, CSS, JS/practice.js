@@ -361,3 +361,15 @@ console.log(jffm4.charAt(9));
 
 // Arrays :-
 
+let areare = [99, 98, 97, 87, 84, 48, 84, 83, 83, 84];
+console.log(areare);
+
+let array08 = ["cow", "dog", "human", "cat", "lion"]; 
+// for (let i = 0; i < array08.length; i++) {           // for loop 
+//     console.log(array08[i]);
+// }
+
+for (let animal of array08) {           // forof loop
+    console.log(animal);                // prefer for array
+}
+
