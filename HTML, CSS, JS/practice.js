@@ -373,3 +373,14 @@ for (let animal of array08) {           // forof loop
     console.log(animal);                // prefer for array
 }
 
+
+let stumarks = [85, 97, 44, 37, 76, 60];
+
+let sum2 = 0;
+
+for (let stmark of stumarks) {
+    sum2 += stmark;
+}
+
+let avg1 = sum2 / stumarks.length;
+ console.log(`Average marks of student is ${avg1}`);
