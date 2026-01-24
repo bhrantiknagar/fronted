@@ -384,3 +384,24 @@ for (let stmark of stumarks) {
 
 let avg1 = sum2 / stumarks.length;
  console.log(`Average marks of student is ${avg1}`);
+
+
+let price3 = [250, 645, 300, 900, 50];
+
+let i2 = 0;
+for (let val of price3) {
+    let offer = val / 10;       // for of loop
+    price3[i2] -= offer;
+    console.log(`value after offer = ${price3[i2]}`);
+    i2++;
+}
+
+//            OR
+
+for (let i = o; i < price3.length; i++) {
+    let offer = price3[i] / 10;     // for loop
+    price3[i] -= offer;
+}
+
+console.log(price3);
+
