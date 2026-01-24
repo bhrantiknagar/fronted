@@ -3,7 +3,7 @@ console.log("Here, We start!");
 console.log(" here we start again bro");
 
 
-// veriables 
+// Veriables 
 
 // halfName = "Mad";
 // console.log(halfName);
@@ -234,7 +234,7 @@ if (marks >= 90 && marks <= 100) {
 console.log("Your Grade is",grade);
 
 
-// loops :-
+// Loops :-
 
 for (let i = 1; i <= 9; i++) {          // for loop
     console.log("i =", i);
@@ -408,7 +408,7 @@ console.log(price3);
 
 let sleep = [1, 2, 3, 4, 5, 6,];
 
-sleep.push(7, 8, 9, 10);        // push at the end
+sleep.push(7, 8, 9, 10);            // push at the end
 
 console.log(sleep); 
 
@@ -416,7 +416,7 @@ let vanishItem = sleep.pop();       // pop - removing last thing in array
 
 let sleep2 = ["good", "bad", "crow", "shift"];
 
-console.log(sleep.toString());      // tostring - array to string
+console.log(sleep.toString());      // to-string - array to string
 console.log(sleep2.toString());
 console.log("vanished", vanishItem);
 
@@ -438,3 +438,11 @@ arr2.splice(2, 1, 99, 99);                    // splice - start,select,replace
 console.log(arr2);
 
 
+let companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
+
+console.log(companies.shift());
+companies.splice(1,1,"ola");
+companies.push("amazon");
+
+
+// Functions :-
