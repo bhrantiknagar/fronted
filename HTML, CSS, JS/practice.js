@@ -405,3 +405,18 @@ for (let i = o; i < price3.length; i++) {
 
 console.log(price3);
 
+
+let sleep = [1, 2, 3, 4, 5, 6,];
+
+sleep.push(7, 8, 9, 10);        // push at the end
+
+console.log(sleep); 
+
+let vanishItem = sleep.pop();       // pop - removing last thing in array
+
+let sleep2 = ["good", "bad", "crow", "shift"];
+
+console.log(sleep.toString());      // tostring - array to string
+console.log(sleep2.toString());
+console.log("vanished", vanishItem);
+
