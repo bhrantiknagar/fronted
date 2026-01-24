@@ -420,3 +420,21 @@ console.log(sleep.toString());      // tostring - array to string
 console.log(sleep2.toString());
 console.log("vanished", vanishItem);
 
+
+let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "drstrange"];
+let dcHeroes = ["batman", "man of steel"];
+
+let heroes = marvelHeroes.concat(dcHeroes);   // concat - joint many arrays
+dcHeroes.unshift("ladygaga");                 // unshift - add in starting
+marvelHeroes.shift("");                       // shift - remove from start
+
+console.log(heroes);
+console.log(marvelHeroes.slice(1,2));         // slice - cut a piece
+
+
+let arr2 = [1, 2, 3, 4, 5, 6, 7];
+
+arr2.splice(2, 1, 99, 99);                    // splice - start,select,replace
+console.log(arr2);
+
+
