@@ -583,3 +583,37 @@ const output1 = arr5.reduce((prev, curr) => {
 
 console.log(output1);
 
+
+let largno = [95, 74, 34, 72, 85, 92, 55, 93];
+
+let bookworm = largno.filter((val) => {
+    return val > 90; 
+});
+
+console.log(bookworm);
+
+
+// let n1 = prompt("enter a number : ");
+
+// let arr6 = [];
+
+// for(let i = 1; i <= n1; i++) {
+//     arr6[i - 1] = i;
+// }
+ 
+// console.log(arr6);
+
+// let sum6 = arr6.reduce((res, curr) => {
+//     return res + curr;
+// });
+
+// console.log("sum = ",sum6);
+
+// let factorial = arr6.reduce((res, curr) => {
+//     return res * curr;
+// });
+
+// console.log("factorial = ",factorial);
+
+
+// DOM - Document Object Model :-
