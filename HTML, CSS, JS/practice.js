@@ -524,3 +524,18 @@ const vowel1 = (str) => {            // Arrow-vowel function
     console.log(count,"Vowels");
 }
 vowel1("this is arrow function");
+
+
+let arr = ["jaipur", "udaipur", "kota", "bikaner", "jaisalmer"];
+
+arr.forEach((val, idx, arr) => {             // forEach function- execute for each element
+    console.log(val.toUpperCase(), idx);
+});
+
+let square = [2, 3, 4, 5, 7];
+
+square.forEach((val,) => {
+    console.log(val * val);
+});
+
+
