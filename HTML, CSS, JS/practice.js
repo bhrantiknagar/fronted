@@ -539,3 +539,47 @@ square.forEach((val,) => {
 });
 
 
+let nums = [45, 35, 25, 15];
+
+let newArr = nums.map((val) => {        // map - create new array using some return value  
+    return val * 2;
+});
+
+console.log(newArr);
+
+let calcSquare = (num) => {
+    console.log(num * num);
+};
+
+/* forEach - is use for normal calculation and printing
+value.
+ Map - is use when you creating new array, using values. */
+ 
+ 
+let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let evenArr = arr3.filter((val) => {    // filter- create new array if true
+    return val % 2 === 0;
+    // return val % 2 !== 0;
+});
+
+console.log(evenArr);
+
+
+let arr4 = [11, 12, 13, 14];      // reduce- it returns the single value
+
+const output = arr4.reduce((prev, curr) => {
+    return prev + curr;
+});
+
+console.log(output);
+
+
+let arr5 = [34, 99, 93, 65];      
+
+const output1 = arr5.reduce((prev, curr) => {
+    return prev > curr ? prev : curr;  // largest no. code
+});
+
+console.log(output1);
+
