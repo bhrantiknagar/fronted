@@ -446,3 +446,42 @@ companies.push("amazon");
 
 
 // Functions :-
+
+function func1 () {
+    console.log(13);
+}
+func1();
+
+function sum3(x, y) {
+    s = x + y;
+}
+ 
+
+function sum4(a, b) {
+    return a + b;
+}
+let su = sum4(4, 5);
+console.log(su);
+
+// Normal function of sum & multiplication
+
+function sum5(a, b) {
+    return a * b;
+}
+let su2 = sum5(99, 1);
+console.log(su2);
+
+
+const arrowSum = (a, b) => {            // => - arrow function
+    return a + b;
+}
+let su3 = arrowSum(998, 1);
+console.log(su3);
+
+// Arrow function of sum & multiplication
+
+const arrowSum1 = (a, b) => {
+    return a * b;
+}
+let su4 = arrowSum1(9999, 1);
+console.log(su4);
