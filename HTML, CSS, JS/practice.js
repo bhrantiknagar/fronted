@@ -485,3 +485,42 @@ const arrowSum1 = (a, b) => {
 }
 let su4 = arrowSum1(9999, 1);
 console.log(su4);
+
+
+function vowel(str) {                  // vowel function
+    let count = 0;
+    for (const char of str) {
+         if (
+             char === "a" ||
+             char === "e" ||
+             char === "i" ||
+             char === "o" ||
+             char === "u"
+            ) {
+            count++;
+         }
+    }
+
+    console.log(count,"Vowels");
+}
+vowel("he there");
+
+//  same function with function ↑ & arrow function ↓
+
+const vowel1 = (str) => {            // Arrow-vowel function
+    let count = 0;
+    for (const char of str) {
+         if (
+             char === "a" ||
+             char === "e" ||
+             char === "i" ||
+             char === "o" ||
+             char === "u"
+            ) {
+            count++;
+         }
+    }
+
+    console.log(count,"Vowels");
+}
+vowel1("this is arrow function");
