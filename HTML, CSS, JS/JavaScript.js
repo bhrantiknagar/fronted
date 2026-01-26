@@ -647,3 +647,32 @@ console.dir(firsque3);
 let firsque4 = document.querySelectorAll(".hel");   // when use queryselectorAll for class tag put (.)
 console.dir(firsque4);
 
+
+let div = document.querySelector("div");
+console.dir(div);
+
+// DOM mainpulation properties- 
+// tagName : show tag
+// innerText : show text and its Child
+// innerHtml : show html with Element
+// textContent : show hidden element of html
+
+
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+
+h2.innerText = h2.innerText + " from Millionaire!";
+
+
+let div1 = document.querySelectorAll(".box");
+
+// div1[0].innerText = "new unique value 1";
+// div1[1].innerText = "new unique value 2";   // simple way
+// div1[2].innerText = "new unique value 3";
+
+let idx = 1;
+for (div of div1) {                            // better way
+    div.innerText = `new unique value ${idx}`;
+    idx++;                                     // it helps in big amount of divs
+}
+
