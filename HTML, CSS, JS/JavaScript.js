@@ -618,3 +618,32 @@ console.log(bookworm);
 
 // DOM - Document Object Model :-
 
+let heading = document.getElementById("hell");      // id- from html
+console.log(heading);
+console.dir(heading);
+
+
+let headings = document.getElementsByClassName("hel");   // class- from html
+console.dir(headings);
+console.log(headings);
+
+
+let pragra = document.getElementsByTagName("p");     // tag- for showing the full tag 
+console.dir(pragra);
+
+
+let firsque = document.querySelector("h1");     // queryselector- for first element from any tags
+console.dir(firsque);
+
+let firsque1 = document.querySelectorAll("h1");    // queryselectorAll- for all element from any tags
+console.dir(firsque1);
+
+let firsque2 = document.querySelector("#helloo");     // when use queryselector for id tag put (#)
+console.dir(firsque2);
+
+let firsque3 = document.querySelector(".hel");    // when use queryselector for class tag put (.)
+console.dir(firsque3);
+
+let firsque4 = document.querySelectorAll(".hel");   // when use queryselectorAll for class tag put (.)
+console.dir(firsque4);
+

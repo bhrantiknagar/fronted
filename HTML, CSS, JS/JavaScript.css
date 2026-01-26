@@ -1,0 +1,22 @@
+body {
+    background-color: cadetblue;
+}
+
+button {
+    background-color: chartreuse;
+    color: black;
+}
+
+#hello {
+    color: gold;
+}
+
+#hell {
+    color: blue;
+}
+
+.hel {
+    color: blueviolet;
+}
+
+
