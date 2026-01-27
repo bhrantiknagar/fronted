@@ -702,3 +702,23 @@ div3.style.border = "3px solid black";
 div3.style.fontSize = "20px";
 
 
+let newbtn = document.createElement("button");  // createElement- for create new things
+newbtn.innerText = "press me!";
+console.log(newbtn);
+
+let div4 = document.querySelector("div");  // this is for showing that thing
+div.append(newbtn);
+div.prepend(newbtn);
+div.after(newbtn);
+div.before(newbtn);
+
+
+let newheading = document.createElement("h1");       // this is create
+newheading.innerHTML = "<i> Hey, whatsuppppp!</i>";
+
+document.querySelector("body").prepend(newheading);   // this is showing
+
+
+let para2 = document.querySelector("p");
+para2.remove();                             // this for removing
+
