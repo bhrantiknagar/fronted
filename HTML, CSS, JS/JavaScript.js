@@ -658,10 +658,10 @@ console.dir(div);
 // textContent : show hidden element of html
 
 
-let h2 = document.querySelector("h2");
-console.dir(h2.innerText);
+// let h2 = document.querySelector("h2");
+// console.dir(h2.innerText);
 
-h2.innerText = h2.innerText + " from Millionaire!";
+// h2.innerText = h2.innerText + " from Millionaire!";
 
 
 let div1 = document.querySelectorAll(".box");
@@ -675,4 +675,30 @@ for (div of div1) {                            // better way
     div.innerText = `new unique value ${idx}`;
     idx++;                                     // it helps in big amount of divs
 }
+
+
+let div2 = document.querySelector("div");
+console.log(div2);
+
+let id = div.getAttribute("id");         // getAttribute- for id
+console.log(id);
+
+let name = div.getAttribute("name");     // getAttribute- for name
+console.log(name);
+
+let para = document.querySelector("p");   // getAttribute- for class
+console.log(para.getAttribute("class"));
+
+
+let para1 = document.querySelector("p");   // setAttribute- for change the attribute
+console.log(para1.setAttribute("class", "oldclass"));
+
+
+let div3 = document.querySelector("div");
+
+div3.style.backgroundColor = "white";   // these use for change in CSS 
+div3.style.color = "black";
+div3.style.border = "3px solid black";
+div3.style.fontSize = "20px";
+
 
