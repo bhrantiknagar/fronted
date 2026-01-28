@@ -38,4 +38,11 @@ button {
     border-radius: 18%;
 }
 
+.content {
+    color: red;
+}
+
+.newclass {
+    background-color: green;
+}
 

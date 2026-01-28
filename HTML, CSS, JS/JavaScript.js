@@ -722,3 +722,15 @@ document.querySelector("body").prepend(newheading);   // this is showing
 let para2 = document.querySelector("p");
 para2.remove();                             // this for removing
 
+
+let newbtn2 = document.createElement("button");
+newbtn2.innerText = "click me";
+
+newbtn2.style.backgroundColor = "red";
+newbtn2.style.color = "white";
+
+document.querySelector("body").prepend(newbtn2);
+
+
+// Events :-
+
